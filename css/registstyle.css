@@ -1,0 +1,95 @@
+#regist{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: table;
+    width: 60%;
+    border-radius: 40px;
+    background-color: rgb(255, 215, 200);
+
+    /* border : 3px solid blue; */
+}
+.reg{
+    margin-bottom :10px;
+    display: table-row;
+    
+    /* border : 3px solid blue; */
+}
+
+.reg:not(#productEx){
+    height :  70px;
+}
+
+#cell1{
+    margin-left : 0;
+    text-align : center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif, Bold;
+    font-weight: bold;
+    vertical-align: middle;
+    display: table-cell;
+    
+    /* border : 3px solid blue; */
+}
+#cell2{
+    /* font-size: 20px; */
+    font-family: Arial, Helvetica, sans-serif, Bold;
+    font-weight: bold;
+    
+    vertical-align: middle;
+    width : 85%;
+    display: table-cell;
+    
+    /* border : 3px solid blue; */
+}
+#title{
+    width: 93%;
+    height: 30px;
+}
+
+#productName{
+    width: 30%;
+    height: 30px;
+}
+
+#category{
+}
+
+#productEx{
+    width: 93%;
+    height: 250px;
+}
+
+#price{
+    width: 15%;
+    height: 30px;
+}
+
+#attachPictures{
+}
+
+
+span{
+    margin-left : 10px;
+    padding-top: 10px;
+}
+
+select{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+}
+
+input, textarea{
+    font-size: 18px;
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-right: 30px;
+    width: 50px;    
+    height: 30px;
+    font-size: 15px;
+}

@@ -1,0 +1,46 @@
+body{
+	text-align :center;
+}
+span{
+	font-size : 30px;
+}
+p{
+	text-align : center;
+	font-size : 20px;
+}
+.box{
+	margin : auto;
+	margin-top : 50px;
+	width : 550px;
+	height : 550px;
+	display : table;
+}
+.row{
+	display : table-row;
+	border : 3px LightGrey;
+}
+
+.cell{
+	border : 3px solid LightGrey;
+	display : table-cell;
+	width : 50%;
+	height : 50%;
+}
+img{
+	width :130px;
+	height : 130px;
+}
+button{
+	text-decoration : none;
+	background : none;
+	border : 0;
+}
+
+.cell span{
+	color : LightGrey;
+	font-size : 15px;
+	font-weight: bold;       
+}
+button:hover{
+	color : Coral;
+}

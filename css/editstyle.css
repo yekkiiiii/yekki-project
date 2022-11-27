@@ -1,0 +1,104 @@
+body{
+	text-align : center;
+}
+span{
+	font-size : 30px;
+}
+
+input{
+	vertical-align : middle;
+	width : 20vw;
+	height : 2.5vh;
+	font-size : 1.7vmin;
+}
+
+.bg{
+	width : 40vw;
+	height : 50vh;
+	background-color : gainsboro;
+	margin : auto;
+	border-radius : 40px;
+}
+.myPage{
+	height : 50vh;
+	width : 40vw;
+	margin : auto;
+	margin-top : 20px;
+	display : table;
+}
+#ID{
+	margin-top : 30px;
+}
+
+.info{
+	vertical-align : middle;
+	width : 40vw;
+	margin : auto;
+	display : table-row;
+	margin-bottom : 10px;
+	font-size : 2vmin;
+	height : 3.5vmin;
+}
+
+.cell1{
+	border-bottom : 2px solid DimGrey;
+	vertical-align : middle;
+	display : table-cell;
+	text-align : center;
+	color : Coral;
+	padding-left : 20px;
+}
+
+.cell2{
+	border-bottom : 2px solid DimGrey;
+	font-weight : bold;
+	display : table-cell;
+	text-align : left;
+	vertical-align : middle;
+	padding-left : 20px;
+}
+select{
+	margin-bottom : 20px;
+	padding : 0;
+	width : 10vmin;
+	height : 3vmin;
+}
+
+button{
+	display : absolute;
+	text-decoration : none;
+	background : none;
+	border : 0;
+	width : 50px;
+	height : 50px;
+	margin-top :10px;
+}
+img{
+	width : 3vmin;
+	height : 4vmin;
+}
+.return{
+	float : right;
+}
+.modify{
+	background-color : black;
+	color : white;
+	margin-top : 20px;
+	margin-left : 20px;
+	width : 120px;
+	height : 3.5vmin;
+	float : center;
+	font-size : 17px;
+	border-radius  :40px;
+}
+.modify:hover{
+	color : coral;
+}
+
+.error{
+	font-size : 1px;
+	height : 10px;
+	color : red;
+	margin-top :5px;
+	font-weight :600;
+}
